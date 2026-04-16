@@ -22,14 +22,24 @@ SQLAlchemy
 PostgreSQL
 Docker
 ## Project Structure
+```bash
 etl/
- ├── generate_data.py
- ├── transform_data.py
- ├── load_data.py
- ├── run_pipeline.py
+├── generate_data.py
+├── transform_data.py
+├── load_data.py
+├── run_pipeline.py
 
 dags/
- ├── etl_pipeline.py
+├── etl_pipeline.py
+
+database/
+├── .gitkeep
+
+docker-compose.yml
+requirements.txt
+README.md
+
+``` 
 ## Getting Started
 pip install -r requirements.txt
 python -m dags.etl_pipeline
