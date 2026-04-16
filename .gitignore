@@ -1,0 +1,11 @@
+# virtual env
+.venv/
+
+# python cache
+__pycache__/
+
+# data files
+*.csv
+
+# IDE
+.idea/

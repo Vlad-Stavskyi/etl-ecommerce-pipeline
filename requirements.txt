@@ -1,0 +1,3 @@
+# project dependencies will be added later
+pandas
+faker
